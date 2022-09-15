@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "STM32F429ZGT6")
+    (date "2022-09-12")
+    (rev "soy")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x36" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 45.72 0)
@@ -1342,7 +1348,7 @@
   )
 
   (no_connect (at 251.46 111.76) (uuid 0a6aedcb-b82e-4253-838b-d010410dd492))
-  (no_connect (at 251.46 114.3) (uuid 0a6aedcb-b82e-4253-838b-d010410dd492))
+  (no_connect (at 251.46 114.3) (uuid 0a6aedcb-b82e-4253-838b-d010410dd493))
   (no_connect (at 251.46 149.86) (uuid 719b2349-2229-4aa0-8065-b144258f23f5))
   (no_connect (at 251.46 152.4) (uuid 719b2349-2229-4aa0-8065-b144258f23f6))
   (no_connect (at 21.59 189.23) (uuid 850493ad-75f8-425e-a140-c86596514cf0))
@@ -4828,19 +4834,19 @@
       (reference "R12") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/9b5c3b29-0ba0-4e2e-bed2-763180cc28b9/a31cf181-fe02-4f9f-9cfd-0a272d6ec767"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Library:SW_Push_6x3.6mm_H2.5mm")
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Library2:SW_Push_6x3.6mm_H2.5mm")
     )
     (path "/9b5c3b29-0ba0-4e2e-bed2-763180cc28b9/dbc4401d-0309-4a07-8d57-5cf981052a92"
-      (reference "SW2") (unit 1) (value "SW_Push1") (footprint "Library:SW_Push_6x3.6mm_H2.5mm")
+      (reference "SW2") (unit 1) (value "SW_Push1") (footprint "Library2:SW_Push_6x3.6mm_H2.5mm")
     )
     (path "/9b5c3b29-0ba0-4e2e-bed2-763180cc28b9/94e6013f-d911-4c17-8901-d4baf3928eff"
-      (reference "SW3") (unit 1) (value "SW_Push2") (footprint "Library:SW_Push_6x3.6mm_H2.5mm")
+      (reference "SW3") (unit 1) (value "SW_Push2") (footprint "Library2:SW_Push_6x3.6mm_H2.5mm")
     )
     (path "/9b5c3b29-0ba0-4e2e-bed2-763180cc28b9/38e9997a-d55c-4a5f-917f-5c7384be3f79"
-      (reference "SW4") (unit 1) (value "SW_Push3") (footprint "Library:SW_Push_6x3.6mm_H2.5mm")
+      (reference "SW4") (unit 1) (value "SW_Push3") (footprint "Library2:SW_Push_6x3.6mm_H2.5mm")
     )
     (path "/9b5c3b29-0ba0-4e2e-bed2-763180cc28b9/f45209b4-fc10-46eb-bdf5-94061622ad4c"
-      (reference "SW5") (unit 1) (value "SW_Push") (footprint "Library:SW_Push_6x3.6mm_H2.5mm")
+      (reference "SW5") (unit 1) (value "SW_Push") (footprint "Library2:SW_Push_6x3.6mm_H2.5mm")
     )
     (path "/6d9ae86f-8faa-459d-8f87-32364671ad9f"
       (reference "U1") (unit 1) (value "STM32F407ZETx") (footprint "Package_QFP:LQFP-144_20x20mm_P0.5mm")
